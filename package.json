@@ -1,0 +1,29 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "cross-env NODE_ENV=development node src/server.js",
+    "cypress": "cross-env NODE_ENV=test node src/server.js",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "cypress": "^14.5.2",
+    "jest": "^30.0.4",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.3"
+  }
+}
